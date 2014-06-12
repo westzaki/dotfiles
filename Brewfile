@@ -6,6 +6,7 @@ upgrade
 # Install Packages
 install wget
 install curl
+install tree
 install git
 install zsh
 install vim

@@ -3,7 +3,11 @@
 update
 upgrade
 
+# Add Repo
+tap caskroom/cask
+
 # Install Packages
+install brew-cask
 install wget
 install curl
 install tree

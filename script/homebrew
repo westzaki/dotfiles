@@ -1,0 +1,32 @@
+#!/bin/zsh
+
+# Check for Homebrew
+if test ! $(which brew)
+then
+  echo "Install Homebrew"
+  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)" > /tmp/homebrew-install.log
+fi
+
+# Update & Upgrade
+brew update
+brew upgrade
+
+# Add Repo
+brew tap caskroom/cask
+
+# Install Packages
+brew install brew-cask
+brew install wget
+brew install curl
+brew install tree
+brew install git
+brew install zsh
+brew install vim
+brew install openssl
+brew install rbenv
+brew install ruby-build
+brew install ghc
+brew install haskell-platform
+
+# Clean
+brew cleanup

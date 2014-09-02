@@ -17,5 +17,7 @@ install vim
 install openssl
 install rbenv
 install ruby-build
+install ghc
+install haskell-platform
 
 cleanup

@@ -11,11 +11,7 @@ fi
 brew update
 brew upgrade
 
-# Add Repo
-brew tap caskroom/cask
-
 # Install Packages
-brew install brew-cask
 brew install wget
 brew install curl
 brew install tree

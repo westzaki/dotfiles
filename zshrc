@@ -7,7 +7,7 @@ export PATH=$HOME/dotfiles/script:$PATH
 ZSH=$HOME/dotfiles/oh-my-zsh
 ZSH_THEME="bureau"
 
-plugins=(git brew rbenv gem npm)
+plugins=(git brew rbenv bundler rake gem npm)
 
 source $ZSH/oh-my-zsh.sh
 
